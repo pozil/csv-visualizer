@@ -1,0 +1,37 @@
+{
+    "name": "csv-visualizer",
+    "version": "1.0.1",
+    "description": "A visualizer that parses CSV data and renders it in a table in Postman or in a browser.",
+    "main": "src/main.js",
+    "scripts": {
+        "build": "rm -fr dist && rollup -c",
+        "prettier": "prettier --write \"**/*.{css,html,js,json,md,yaml,yml}\"",
+        "lint": "eslint src"
+    },
+    "author": "Philippe Ozil (pozil)",
+    "license": "CC0-1.0",
+    "dependencies": {
+        "papaparse": "^5.3.1"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^20.0.0",
+        "@rollup/plugin-node-resolve": "^13.0.4",
+        "eslint": "^7.32.0",
+        "prettier": "^2.3.2",
+        "rollup": "^2.56.3",
+        "rollup-plugin-terser": "^7.0.2"
+    },
+    "files": [
+        "dist/"
+    ],
+    "homepage": "https://github.com/pozil/csv-visualizer",
+    "bugs": "https://github.com/pozil/csv-visualizer/issues",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pozil/csv-visualizer"
+    },
+    "volta": {
+        "node": "14.17.6",
+        "npm": "7.22.0"
+    }
+}

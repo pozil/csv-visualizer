@@ -1,0 +1,12 @@
+{
+    "root": true,
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": false
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "extends": ["eslint:recommended"]
+}

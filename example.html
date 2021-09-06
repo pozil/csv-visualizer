@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>CSV Visualizer Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <script src="https://unpkg.com/csv-visualizer@1.0.0/dist/csv-vizualizer.min.js"></script>
+        <!--
+            <script src="dist/csv-visualizer.min.js"></script>
+        -->
+    </head>
+    <body>
+        <script>
+            const CSV =
+                '"h1","h2","h3"\n"r1c1","r1c2","r1c3"\n"r2c1","r2c2","r2c3"';
+            CsvVisualizer.visualize(CSV);
+        </script>
+    </body>
+</html>
