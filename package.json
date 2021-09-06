@@ -30,6 +30,11 @@
         "type": "git",
         "url": "git+https://github.com/pozil/csv-visualizer"
     },
+    "keywords": [
+        "CSV",
+        "visualizer",
+        "Postman"
+    ],
     "volta": {
         "node": "14.17.6",
         "npm": "7.22.0"
