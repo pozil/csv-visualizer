@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/csv-visualizer)](https://www.npmjs.com/package/csv-visualizer)
+
 # CSV Visualizer
 
 A visualizer that parses CSV data and renders it in a table in Postman or in a browser.
