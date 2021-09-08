@@ -52,7 +52,7 @@ Complete example available in [example.html](example.html).
 CsvVisualizer.visualize(
     csvString,
     (rootElement = document.body),
-    (options = null)
+    (options = {})
 );
 ```
 
